@@ -6,14 +6,14 @@ int main() {
 
   int first_number, second_number, sum;
 
-  cout << "Enter two integers: ";
-  cin >> first_number >> second_number;
+  prinf("Enter two integers: ");
+  scanf("%d %d",&first_number,&second_number);
 
   // sum of two numbers in stored in variable sumOfTwoNumbers
   sum = first_number + second_number;
 
   // prints sum 
-  cout << first_number << " +" <<  second_number << " = " << sum;     
+  printf("Sum=%d",first_number + second_number);   
 
   return 0;
 }
